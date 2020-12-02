@@ -124,7 +124,7 @@ public class PayrollSystem {
         String information = "Employee's Full Name: " + emp.getEmpName() + "\nNumbers of Hours worked in a week: " + 
                     emp.getNoOfHoursPerWeek() + "\nHourly Rate: " + nf.format(emp.getHourlyPayRate()) + "\nGross Pay: " + 
                     nf.format(grossPay) + "\nDeductions: \nFederal Tax withholding Rate ("
-                    + (int)withholdingTaxRate + "%): " + nf.format(withHoldingTax) + "\nState Tax withholding Rate (" + (int)stateTaxRate +
+                    + withholdingTaxRate + "%): " + nf.format(withHoldingTax) + "\nState Tax withholding Rate (" + stateTaxRate +
                     "%): " + nf.format(stateTax) + "\nTotal Deduction: " + nf.format(totalDeduction) + "\nNet Pay: " + nf.format(netPay);
         
         // Print output in message dialog box
