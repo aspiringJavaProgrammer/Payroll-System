@@ -16,8 +16,6 @@ class Employee {
     private double hourlyPayRate, withHoldingTaxRate, stateTaxRate;
     private int noOfHoursPerWeek;
     
-    private static double grossPay;
-    
     // constructor 
     public Employee(String name, int noOfHrs, double hourlyPay, double withHoldingTax, double stateTax ){
         this.empName = name;
@@ -25,7 +23,7 @@ class Employee {
         this.hourlyPayRate = hourlyPay;
         this.withHoldingTaxRate = withHoldingTax;
         this.stateTaxRate = stateTax;
-        Employee.grossPay = noOfHrs * hourlyPay;
+        
     }
 
 
