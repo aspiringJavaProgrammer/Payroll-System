@@ -26,7 +26,6 @@ class Employee {
         
     }
 
-
     public String getEmpName() {
         return empName;
     }
